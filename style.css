@@ -1,0 +1,88 @@
+/* Colors and fonts*/
+body {
+	background: #DAFFFB;
+	color: #176B87;
+	font-family: 'Cookie', cursive;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #04364A;
+	font-size: 70px;
+}
+
+h2 {
+	font-family: 'Quintessential', cursive;
+	color: #04364A;
+	font-weight: lighter;
+	font-size: 50px;
+}
+
+
+a{
+	text-decoration: none;
+	color: #2E97A7;
+}
+
+a:hover {
+	color: #E2C799;
+}
+
+/* Custom design and class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+	height: 300px;
+}
+
+.btn-blue{
+	background-color: #04364A;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: #64CCC5;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding:10px;
+}
+
+.list-inline i{
+	font-size:50px;
+	color: #04364A;
+}
+
+.list-inline i:hover {
+	color:#64CCC5;
+}
+
+/*Design adjustments using id*/
+
+#introduction p{
+	margin-bottom: 90px;
+}
